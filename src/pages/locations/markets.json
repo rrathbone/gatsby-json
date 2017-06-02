@@ -1,0 +1,326 @@
+[
+  {
+    "marketId": 1,
+    "label": "Seattle",
+    "providers": [
+      {
+        "providerName": "lyft",
+        "rideType": {
+          "rideTypeId": 1,
+          "rideType": "ride share"
+        },
+        "assets": {
+          "icons": {
+            "commonStoragePrefix": "providers/lyft",
+            "images": {
+              "pdbicon": {
+                "description": "in app right navigation button",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/lyft/btn_lyft.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pdb icon",
+                "filenamePrefix": "btn_lyft",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 45,
+                  "height": 40
+                }
+              },
+              "pinouticon": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/lyft/car_lyft.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_lyft",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "text": {
+            "pdb": {
+              "promotionalParagraph": {
+                "value": "Wherever you're headed, count on Lyft for rides in minutes."
+              }
+            }
+          }
+        }
+      },
+      {
+        "providerName": "car2go",
+        "rideType": {
+          "rideTypeId": 2,
+          "rideType": "car share"
+        },
+        "assets": {
+          "icons": {
+            "commonStoragePrefix": "providers/car2go",
+            "images": {
+              "pdbicon": {
+                "description": "in app right navigation button",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/car2go/btn_c2g.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pdb icon",
+                "filenamePrefix": "btn_c2g",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 45,
+                  "height": 40
+                }
+              },
+              "pinouticon": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/car2go/car_c2g_pin.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_c2g_pin",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 37,
+                  "height": 44
+                }
+              },
+              "pinouticon_pressed": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/car2go/car_c2g_pin_press.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_c2g_pin_press",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 37,
+                  "height": 44
+                }
+              }
+            }
+          },
+          "text": {
+            "pdb": {
+              "promotionalParagraph": {
+                "value": "Hop in and drive. Always have access to a car"
+              }
+            }
+          }
+        }
+      },
+      {
+        "providerName": "flywheel",
+        "rideType": {
+          "rideTypeId": 3,
+          "rideType": "taxi service"
+        },
+        "assets": {
+          "icons": {
+            "commonStoragePrefix": "providers/flywheel",
+            "images": {
+              "pbdicon": {
+                "description": "in app right navigation button",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/flywheel/btn_flywheel.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pdb icon",
+                "filenamePrefix": "btn_flywheel",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 45,
+                  "height": 40
+                }
+              },
+              "pinouticon": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/flywheel/car_flywheel.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_flywheel",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "text": {
+            "pdb": {
+              "promotionalParagraph": {
+                "value": "#TODO"
+              }
+            }
+          }
+        }
+      },
+      {
+        "providerName": "seattle yellow cab",
+        "rideType": {
+          "rideTypeId": 3,
+          "rideType": "taxi service"
+        },
+        "assets": {
+          "icons": {
+            "commonStoragePrefix": "providers/yellow_cab",
+            "images": {
+              "pdbicon": {
+                "description": "in app right navigation button",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/yellow_cab/btn_yellow_cab.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pdb icon",
+                "filenamePrefix": "btn_yellow_cab",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 45,
+                  "height": 40
+                }
+              },
+              "pinouticon": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/yellow_cab/car_yellow_cab.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_yellow_cab",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "text": {
+            "pdb": {
+              "promotionalParagraph": {
+                "value": "The largest taxi fleet in Seattle"
+              }
+            }
+          }
+        }
+      },
+      {
+        "providerName": "curb",
+        "rideType": {
+          "rideTypeId": 3,
+          "rideType": "taxi service"
+        },
+        "assets": {
+          "icons": {
+            "commonStoragePrefix": "providers/lyft",
+            "images": {
+              "pdbicon": {
+                "description": "in app right navigation button",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/curb/btn_curb.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pbd icon",
+                "filenamePrefix": "btn_curb",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 45,
+                  "height": 40
+                }
+              },
+              "pinouticon": {
+                "description": "in app map bubbles for available inventory",
+                "url": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting/providers/curb/car_curb.png",
+                "staticHostingRoot": "https://s3-us-west-2.amazonaws.com/market-service-static-content-hosting",
+                "type": "pinout icon",
+                "filenamePrefix": "car_curb",
+                "filenameExtension": "png",
+                "availableSizes": [
+                  "",
+                  "@2x",
+                  "@3x"
+                ],
+                "dimensions": {
+                  "width": 32,
+                  "height": 32
+                }
+              }
+            }
+          },
+          "text": {
+            "pdb": {
+              "promotionalParagraph": {
+                "value": "#TODO"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "marketId": 2,
+    "label": "San Diego",
+    "providers": [
+      {
+        "providerName": "zipcar",
+        "rideType": {
+          "rideTypeId": 2,
+          "rideType": "car share"
+        },
+        "assets": {
+          "url": "in German San Diego translate to [insert translation here]"
+        }
+      },
+      {
+        "providerName": "car2go",
+        "rideType": {
+          "rideTypeId": 2,
+          "rideType": "car share"
+        },
+        "assets": {
+          "url": "map of directions from coffee to office"
+        }
+      }
+    ]
+  }
+]

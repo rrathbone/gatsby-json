@@ -8,6 +8,39 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const { upsertPage } = boundActionCreators
 
   return new Promise((resolve, reject) => {
+    const cities = []
+    const cityTemplate = path.resolve("./src/templates/city.js")
+    resolve(
+      graphql(
+        `
+        {
+          allMarketsJson {
+            edges {
+              node {
+                label
+                providers {
+                  providerName
+                }
+              }
+            }
+          }
+        }
+        `
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+
+        // create cities pages
+        console.log('-----------LOOK!-----------------------------------')
+        console.log(result.data.allMarketsJson.edges)
+        console.log('----------------------------------------------')
+      })
+    )
+  })
+
+  return new Promise((resolve, reject) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/blog-post.js")
     resolve(
